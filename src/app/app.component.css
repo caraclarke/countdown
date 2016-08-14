@@ -1,0 +1,15 @@
+h1, .timer {
+  text-align: center;
+  background-color: #0057B8;
+  color: #fff;
+  padding: 5px;
+}
+
+.timer {}
+
+:host {
+  display: block;
+  height: 100vh;
+  background: url("https://hd.unsplash.com/photo-1416862291207-4ca732144d83") no-repeat;
+  background-size: cover;
+}

@@ -12,7 +12,7 @@ var core_1 = require('@angular/core');
 var countdown_1 = require('./countdown');
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'Election day countdown!';
+        this.title = 'Election Day Countdown';
     }
     AppComponent = __decorate([
         core_1.Component({
