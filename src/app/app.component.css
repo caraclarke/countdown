@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Unity';
-  src: url('../Unity-Font/SharpUnity-Book.ttf')  format('truetype')
+  font-family: Unity;
+  src: url('./SharpUnity-Book.ttf')  format('truetype')
 }
 
 :host {
@@ -8,7 +8,7 @@
   height: 100vh;
   background: url("http://cdn.c.photoshelter.com/img-get2/I0000T68qXEObvf0/fit=1000x750/Stock-06-05-06-003.jpg") no-repeat;
   background-size: cover;
-  font-family: 'Unity', arial, sans-serif;
+  font-family: Unity, arial, sans-serif;
 }
 
 .container {
