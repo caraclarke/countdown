@@ -1,14 +1,19 @@
+@font-face {
+  font-family: 'Unity';
+  src: url('../Unity-Font/SharpUnity-Book.ttf')  format('truetype')
+}
+
 :host {
   display: block;
   height: 100vh;
-  background: url("https://hd.unsplash.com/photo-1416862291207-4ca732144d83") no-repeat;
+  background: url("http://cdn.c.photoshelter.com/img-get2/I0000T68qXEObvf0/fit=1000x750/Stock-06-05-06-003.jpg") no-repeat;
   background-size: cover;
+  font-family: 'Unity', arial, sans-serif;
 }
 
 .container {
-  padding: 50px;
+  padding-top: 50px;
 }
-
 h1, .timer {
   text-align: center;
   background-color: #0057B8;
@@ -19,6 +24,7 @@ h1, .timer {
 .timer {}
 
 img {
-  display: inline-block;
-  /*margin-top: 10px;*/
+  margin-left: 15%;
+  height: auto;
+  width: 70%;
 }

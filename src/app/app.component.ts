@@ -10,5 +10,5 @@ import { CountDown } from './countdown';
 })
 
 export class AppComponent {
-  title = 'Election Day Countdown';
+  title = 'Countdown to Election Day!';
 }
