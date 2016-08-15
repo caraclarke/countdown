@@ -1,14 +1,14 @@
-@font-face {
+/*@font-face {
   font-family: Unity;
-  src: url('./SharpUnity-Book.ttf')  format('truetype')
-}
+  src: url('fonts/SharpUnity-Book.tff')  format('truetype');
+}*/
 
 :host {
   display: block;
   height: 100vh;
   background: url("http://cdn.c.photoshelter.com/img-get2/I0000T68qXEObvf0/fit=1000x750/Stock-06-05-06-003.jpg") no-repeat;
   background-size: cover;
-  font-family: Unity, arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
